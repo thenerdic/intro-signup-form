@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root {
+    /* Primary Colors */
+    --red: hsl(0,100%,74%);
+    --green: hsl(154,59%,51%);
+
+    /* accent color */
+    --blue: hsl(248,32%,49%);
+
+    /* neutral colors */
+    --dark-blue: hsl(249,10%,26%);
+    --gray-blue: hsl(246,25%,77%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    background-color: var(--red);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 90vh;
+
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 30px;
+}
+
+.info-title {
+    font-weight: 700;
+    font-size: 42px;
+    color: white;
+}
+
+.info-p {
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: white;
+    padding: 50px;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.signup-form input {
+    padding: 20px;
+    border: 1px solid var(--gray-blue);
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    width: 425px;
+}
+.form-p {
+    font-size: 10px;
+    align-items: center;
+    color: var(--gray-blue);
+}
+
+.span-form {
+    color: var(--red);
+    font-weight: 700;
+}
+
+#submit-btn {
+    color: white;
+    background-color: var(--green);
+    font-size: 14px;
+    border-radius: 5px;
+    box-shadow: 0 5px 2px -2px forestgreen;
+}
+
+.free-trial-info {
+    background-color: var(--blue);
+    padding: 22px 50px 22px 50px;
+    width: 520px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    box-shadow: 0 4px 2px -2px #000;
+}
+
+.span-trial {
+    font-weight: 700;
+}
