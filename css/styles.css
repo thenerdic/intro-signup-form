@@ -98,6 +98,10 @@ main {
     box-shadow: 0 5px 2px -2px forestgreen;
 }
 
+#submit-btn:hover {
+    cursor: pointer;
+}
+
 .free-trial-info {
     background-color: var(--blue);
     padding: 22px 50px 22px 50px;
