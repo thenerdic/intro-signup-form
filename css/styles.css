@@ -90,6 +90,10 @@ main {
     font-weight: 700;
 }
 
+.span-form:hover {
+    cursor: pointer;
+}
+
 #submit-btn {
     color: white;
     background-color: var(--green);
@@ -116,4 +120,37 @@ main {
 
 .span-trial {
     font-weight: 700;
+}
+
+@media only screen and (max-width: 375px) {
+    main {
+        flex-direction: column;
+    }
+
+    .info {
+        width: 300px;
+        text-align: center;
+    }
+
+    .info-title {
+        font-size: 24px;
+        margin-top: 90px;
+    }
+
+    .signup-form {
+        padding: 30px;
+    }
+
+    .form-p  {
+        width: 200px;
+        text-align: center;
+    }
+
+    .signup-form input {
+        width: 250px;
+    }
+
+    .free-trial-info {
+        width: 310px;
+    }
 }
